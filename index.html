@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link type="text/css" href="./Assets/css/style.css" />
-    <title>Clock-Gallery</title>
-  </head>
-  <body>
-    <button class="toggle">Dark Mode</button>
-    <div class="clock-container">
-      <div class="clock">
-        <div class="needle hour"></div>
-        <div class="needle minute"></div>
-        <div class="needle second"></div>
-        <div class="center-point"></div>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello CRUD</h1>
+    <!-- set up the post method to send a post request to /courses -->
+    <form action="/courses" method="POST">
+        <input type="text" placeholder="course title" name="courseTitle" />
 
-      <div class="time"></div>
-      <div class="date"></div>
-    </div>
-    <script type="text/javascript" src="/Assets/js/script.js"></script>
-  </body>
+        <input type="text" placeholder="course description" name="courseDescription" />
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
 </html>

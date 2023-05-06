@@ -11,6 +11,12 @@ app.listen(port, function () {
     console.log("Listening on Port 3000");
 });
 
+// Get request for homepage
 app.get("/", (req, res) => {
 res.sendFile(__dirname + '/index.html');
 });
+
+// Post request for form submit
+app.post('/courses', (req,res) => {
+    console.log('Request Recieved')
+})
